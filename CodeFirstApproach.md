@@ -172,3 +172,11 @@ In this file there is a method **seed** which we can use to populate our databas
 
 For populating data for the production you can create an empty migration and put in the **Sql** commands in their to fill in the database.
 
+## Working with the database
+
+We will use the DBContext to do this. This approach will be same for both Database first and code first approach. 
+
+### Saving record in the table
+
+![image-20230907001048642](https://i.imgur.com/bNpA5d1.png)
+
